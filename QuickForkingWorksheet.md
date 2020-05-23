@@ -15,7 +15,7 @@ Note, the repo that is cloned will appear as a directory within the working dire
 Instead, if she wants to link the ForkPractice GitHub repo to an already extant local repo:
 ```
 cd <path-to-extant-repo>
-git remote add origin https://github.com/MaggieMain/ForkPractice.github
+git remote add origin https://github.com/MaggieMain/ForkPractice.git
 git push -u origin master
 ```
 
@@ -46,4 +46,4 @@ One a teammate has made changes they would like to contribute to main, they firs
 
 It is also possible through a pull request to update the forked repo. This works by going to New Pull Request and "switching the base" so that the direction of the pull comes from the original main repo (Maggie Main's), and directs to the teammate's forked repo. This "switched base" pull request, allows the owner of the forked repo update their forked repo.
 
-To note, if you update your GitHub content, you will likely want to update your local repo as well. This can be done with `git pull origin master` (pulling from remote to local, the reverse of pushing which moves from local to remote). 
+To note, if you update your GitHub content, you will likely want to update your local repo as well. This can be done with `git pull origin master` (pulling from remote to local, the reverse of pushing which moves from local to remote).
